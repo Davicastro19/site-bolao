@@ -1,0 +1,104 @@
+.headerContainer{
+ height: 5.1rem;
+ color: var(--white);
+ display:flex;
+ justify-content: space-between;
+ background: rgb(160,30,102);
+ background: -moz-linear-gradient(90deg, rgba(160,30,102,1) 30%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 56%, rgba(102,185,77,1) 68%);
+ background: -webkit-linear-gradient(90deg, rgba(160,30,102,1) 30%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 56%, rgba(102,185,77,1) 68%);
+ background: linear-gradient(90deg, rgba(160,30,102,1) 30%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 56%, rgba(102,185,77,1) 68%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a01e66",endColorstr="#66b94d",GradientType=1);
+}
+.sectionOne{
+    color: var(--white);
+    justify-content: center;
+    
+  }
+.swiperContainer{
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+    
+  }
+
+.viewMessageContainer{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+    
+
+}
+  .SwiperSlide{
+    background: transparent;
+    width: 10%;
+    
+  }
+  .login{
+    margin: 30px 20px 0px;
+    width:90%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    form{
+      
+      margin: 20%;
+    }
+  
+  }
+.image{
+  height: 100%; 
+  
+}
+.cardItem{
+  width: 31%;
+}
+.cardItemCart{
+  width: 105%;
+
+}
+.Items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  
+}
+.content{
+  margin: 10px 80px 10px 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction:row;
+  display: flex; 
+}
+
+  @media(max-width:1136px){
+    .headerContainer{
+      height: 4.5rem;
+      background: rgb(160,30,102);
+      background: -moz-linear-gradient(90deg, rgba(160,30,102,1) 28%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(102,185,77,1) 71%);
+      background: -webkit-linear-gradient(90deg, rgba(160,30,102,1) 28%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(102,185,77,1) 71%);
+      background: linear-gradient(90deg, rgba(160,30,102,1) 28%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(102,185,77,1) 71%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a01e66",endColorstr="#66b94d",GradientType=1);
+    }
+    .cardItem{
+      width: 97%;
+      
+    }
+    .content{
+      margin: 0px 20px 0px 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+    }
+   
+      .image{
+        height: 80%; 
+        
+      }
+      .Items{
+        display: flex;
+        flex-direction: column;
+        
+      }
+  }

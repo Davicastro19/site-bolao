@@ -1,0 +1,118 @@
+*{
+ 
+  margin: 0;
+  padding:0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: #fff;
+
+  --black: #000;
+
+  --green-30: #f9ffe5;
+  
+  --green-40: #cbdeb9;
+  
+  --green-50: #9ebd8d;
+
+  --green-60:#709c61;
+
+  --green-65:#98D46D;
+
+  --green-70: #a2ff89;
+
+  --green-80: #7bdf68;
+
+  --green-90: #55bf46
+
+  --green-100: #2ea025;
+
+  --green-200:#078004;
+
+  --green-300: #1f7f15
+
+  --green-400: #177210;
+
+  --green-500: #177210;
+
+  --green-600: #34602b;
+
+  --green-700: #177210;
+
+  --green-800: #23471d;
+
+  --green-900: #112d0e;
+
+  --green-1000: #001400;
+
+  --red-900: #ff3f4b;
+
+  --green-logo: #36C04E;
+
+  --gray-100: #8A8a8a;
+
+
+  
+
+}
+
+button{
+  cursor: pointer;
+}
+h1,h5,h3,h4,h2,span{color:var(--white);}
+
+a{
+  color:var(--white);
+  text-decoration: none;
+}
+
+
+body{
+  background: '#141414'
+}
+
+body, input, textarea, select,button{
+  font: 400 1rem sans-serif;
+}
+@media(max-width:720PX){
+  html{
+    font-size: 87.5%;
+  }
+}
+@media(max-width:1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
