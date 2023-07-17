@@ -11,7 +11,7 @@ export function setupAPIClient(context: any = undefined) {
     const api = axios.create({
         
         //baseURL: 'http://192.168.1.7:5000/',
-         baseURL: 'https://api-torneiallwinclub.herokuapp.com/',
+         baseURL: 'https://api-torneiallwinclub-4fdd683cf7fb.herokuapp.com/',
         headers: {
             Authorization: `Bearer ${cookies['@sweepstakeba233763defb059d333f4dd35152da1183ed90ccb8bdb342f0c94cb64ee7fc91d17125d4765d90395249697e6d8498515274d630805c1fbb822c2bbd.token']}`
         }
